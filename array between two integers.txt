@@ -1,0 +1,64 @@
+1.Write a JavaScript function to generate an array between two integers of 1 step length.
+
+Input :
+console.log(range(3, 7));
+
+Expected Output:
+[3,4, 5, 6, 7]
+
+//var temp declares a empty array
+
+var temp=[];
+
+//In range function we declare parameters a and b
+
+function range(a,b){
+
+//by using for loop we are itearating from a and it should ended when it reaches the parameter b
+
+   for(var i=a;i<=b;i++){
+
+//by pushing the i values into the empty temp array
+       temp.push(i);
+   
+   } 
+
+//by returning the temp array 
+
+    return temp
+}
+console.log(range(3,7))
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.Write a JavaScript function to generate an array between two integers of 1 step length.
+
+Input :
+console.log(range(-4, 7));
+
+Expected Output:
+[-4, -3, -2, -1, 0, 1, 2, 3, 4, 5, 6, 7]
+
+//var temp declares a empty array
+
+var temp=[];
+
+//In range function we declare parameters a and b
+
+function range(a,b){
+
+//by using for loop we are itearating from a and it should ended when it reaches the parameter b
+
+   for(var i=a;i<=b;i++){
+
+//by pushing the i values into the empty temp array
+       temp.push(i);
+   
+   } 
+
+//by returning the temp array 
+
+    return temp
+}
+
+console.log(range(-4,7))
